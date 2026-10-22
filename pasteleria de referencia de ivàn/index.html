@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Panadería y Pastelería</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Panadería y Pastelería</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalogo">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container my-4">
+        <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <div class="row align-items-center bg-warning-subtle p-5">
+                        <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            <h1 class="display-4 fw-bold">Conoce lo rico que hornea ivancito</h1>
+                            <p class="lead">Disfruta de la reposteria artesanal de ivancito</p>
+                            <a href="#catalogo" class="btn btn-dark btn-lg">Mirar los postres</a>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <img src="images/pastel5.jpg" class="img-fluid rounded" alt="Panadería y Pastelería">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="promociones" class="container my-5">
+            <div class="text-center mb-5">
+                <h2>Postres y panaderias</h2>
+                <p class="text-muted">pastelerias y postres</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        Artisan Breads
+                        <div class="card-body">
+                            <h5 class="card-title">Artisan Breads</h5>
+                            <p class="card-text">Panes rústicos de masa madre con corteza crujiente y miga suave.</p>
+                            <a href="#catalogo" class="btn btn-outline-dark">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <img src="imagenes/pastel2.jpg" class="card-img-top" alt="Sweet Pastries">
+                        <div class="card-body">
+                            <h5 class="card-title">Sweet Pastries</h5>
+                            <p class="card-text">Bollos, croissants y repostería dulce para acompañar tu café.</p>
+                            <a href="#catalogo" class="btn btn-outline-dark">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <img src="imagenes/pastel1.jpg" class="card-img-top" alt="Custom Cakes">
+                        <div class="card-body">
+                            <h5 class="card-title">Custom Cakes</h5>
+                            <p class="card-text">Pasteles hechos a medida para todo tipo de celebraciones y eventos especiales.</p>
+                            <a href="#catalogo" class="btn btn-outline-dark">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="container my-5">
+            <div class="text-center mb-4">
+                <h2>Nuestra Galería</h2>
+                <p class="text-muted">Una mirada a nuestro trabajo diario y a la variedad de delicias que ofrecemos.</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="imagenes/pastel3.jpg" class="img-fluid rounded shadow-sm w-100" alt="Galería 1" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="imagenes/pastel4.jpg" class="img-fluid rounded shadow-sm w-100" alt="Galería 2" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <img src="imagenes/pastel5.jpg" class="img-fluid rounded shadow-sm w-100" alt="Galería 3" style="height: 250px; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" class="container my-5">
+            <div class="text-center mb-4">
+                <h2>Catálogo de Productos</h2>
+                <p class="text-muted">Mira nuestra selección completa de 10 productos artesanales[cite: 1].</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel7.jpg" class="card-img-top" alt="Croissant">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Nuevo</span> <!-- Componente extra 1: Badge -->
+                            <h5 class="card-title">Croissant de Mantequilla</h5>
+                            <p class="card-text text-muted">$2.50</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel8.jpg" class="card-img-top" alt="Baguette">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Oferta</span>
+                            <h5 class="card-title">Baguette Tradicional</h5>
+                            <p class="card-text text-muted">$1.80</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel9.jpg" class="card-img-top" alt="Pastel de Fresa">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Nuevo</span>
+                            <h5 class="card-title">Pastel de Frutos Rojos</h5>
+                            <p class="card-text text-muted">$15.00</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel2.jpg" class="card-img-top" alt="Pan Integral">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Saludable</span>
+                            <h5 class="card-title">Pan Integral de Centeno</h5>
+                            <p class="card-text text-muted">$3.50</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel3.jpg" class="card-img-top" alt="Cupcake">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Nuevo</span>
+                            <h5 class="card-title">Cupcake de Chocolate</h5>
+                            <p class="card-text text-muted">$2.00</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel4.jpg" class="card-img-top" alt="Rol de Canela">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Popular</span>
+                            <h5 class="card-title">Rol de Canela Glaseado</h5>
+                            <p class="card-text text-muted">$3.00</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel7.jpg" class="card-img-top" alt="Galletas">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Pack x6</span>
+                            <h5 class="card-title">Galletas con Chispas</h5>
+                            <p class="card-text text-muted">$4.00</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel8.jpg" class="card-img-top" alt="Pan de Maíz">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Tradicional</span>
+                            <h5 class="card-title">Pan de Maíz Casero</h5>
+                            <p class="card-text text-muted">$2.80</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel2.jpg" class="card-img-top" alt="Pay de Limón">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Nuevo</span>
+                            <h5 class="card-title">Pay de Limón Merengado</h5>
+                            <p class="card-text text-muted">$12.50</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagenes/pastel10.jpg" class="card-img-top" alt="Dona">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Oferta</span>
+                            <h5 class="card-title">Dona de Chocolate</h5>
+                            <p class="card-text text-muted">$1.50</p>
+                            <button class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modalDetalle">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalDetalle" tabindex="-1" aria-labelledby="modalDetalleLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetalleLabel">Información del Producto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Este producto se hace cada día con ingredientes 100% naturales. Así se garantiza frescura y calidad artesanal.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contacto" class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+       
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
